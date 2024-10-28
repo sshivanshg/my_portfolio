@@ -14,7 +14,7 @@ const Education = ({
   course_title,
   ending_date,
   institute_name,
-  CGPA,
+  // CGPA,
   description,
 }: I_Education) => {
   const darkModeContext = useContext(DarkModeContext);

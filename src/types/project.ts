@@ -17,7 +17,7 @@ export interface I_Education {
   course_title: string;
   ending_date: string;
   institute_name: string;
-  CGPA: number;
+  // CGPA: number;
   description: string;
 }
 
