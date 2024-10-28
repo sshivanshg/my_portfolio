@@ -56,7 +56,7 @@ const Education = ({
                 </span>
               </div>
               <h2 className={`text-sm max-sm:text-xs ${inter}`}>
-                {institute_name} &nbsp; &nbsp; {CGPA}
+                {institute_name} &nbsp;
               </h2>
               <h2
                 className={`text-sm max-sm:text-[10px] hidden max-sm:block mt-1 ${inter}`}
