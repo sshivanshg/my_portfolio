@@ -70,7 +70,7 @@ import Footer from "@/components/Footer";
 import DarkModeProvider from "@/context/DarkModeContext";
 import { Toaster } from "sonner";
 import { Analytics } from "@vercel/analytics/react";
-import FluidCursor from "@/components/ui/fluid-Cursor"; // Import FluidCursor here
+import FluidCursor from "@/components/ui/fluid-cursor"; // Import FluidCursor here
 
 import "./globals.css";
 
