@@ -7,7 +7,7 @@ const Avatar = () => {
       href="https://www.instagram.com/shivvansh_1101/profilecard/?igsh=MXZtNjhldGoxbDA4MQ=="
       target="_blank"
     >
-      <Picture src="/Shivansh1.jpg" fallback="A" size="6" radius="full" />
+      <Picture src="/ShivanshG.jpg" fallback="A" size="6" radius="full" />
     </Link>
   );
 };
