@@ -80,7 +80,7 @@ export default function Home() {
           course_title={"Bachelors in Computer Science"}
           ending_date={"Expected July 2027"}
           institute_name={"Newton School of Technology"}
-          // CGPA={9.18}
+          // CGPA={7.08}
           description={
             "I'm pursuing a B.Tech and am excited to dive into AI and ML. In my first year, I focused on frontend development, and in my second year, I expanded into backend development."
           }

@@ -26,7 +26,7 @@ const Skills = () => {
     "Shadcn",
     "Remix",
     "Framer Motion",
-  ];
+  ];``
 
   // Matching slugs for IconCloud
   const iconSlugs: string[] = [
