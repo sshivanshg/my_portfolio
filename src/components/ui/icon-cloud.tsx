@@ -1,7 +1,6 @@
 "use client";
 
-import { useEffect, useMemo, useState } from "react";
-import { useTheme } from "next-themes";
+import { useContext, useEffect, useMemo, useState } from "react";
 import {
   Cloud,
   fetchSimpleIcons,
@@ -9,6 +8,7 @@ import {
   renderSimpleIcon,
   SimpleIcon,
 } from "react-icon-cloud";
+import { DarkModeContext } from "@/context/DarkModeContext";
 
 export const cloudProps: Omit<ICloud, "children"> = {
   containerProps: {
@@ -17,6 +17,7 @@ export const cloudProps: Omit<ICloud, "children"> = {
       justifyContent: "center",
       alignItems: "center",
       width: "100%",
+      minHeight: 360,
       paddingTop: 40,
     },
   },
@@ -65,7 +66,8 @@ type IconData = Awaited<ReturnType<typeof fetchSimpleIcons>>;
 
 export default function IconCloud({ iconSlugs }: DynamicCloudProps) {
   const [data, setData] = useState<IconData | null>(null);
-  const { theme } = useTheme();
+  const darkMode = useContext(DarkModeContext);
+  const theme = darkMode?.isDarkMode ? "dark" : "light";
 
   useEffect(() => {
     fetchSimpleIcons({ slugs: iconSlugs }).then(setData);
@@ -75,7 +77,7 @@ export default function IconCloud({ iconSlugs }: DynamicCloudProps) {
     if (!data) return null;
 
     return Object.values(data.simpleIcons).map((icon) =>
-      renderCustomIcon(icon, theme || "light"),
+      renderCustomIcon(icon, theme),
     );
   }, [data, theme]);
 

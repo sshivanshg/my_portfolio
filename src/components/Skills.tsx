@@ -80,7 +80,7 @@
 //   );
 'use client';
 import React from "react";
-import { Badge, Tooltip, TooltipTrigger, TooltipContent } from "@radix-ui/themes";
+import { Badge, Tooltip } from "@radix-ui/themes";
 import Title from "./ui/Title";
 import IconCloud from "@/components/ui/icon-cloud";
 
@@ -108,20 +108,15 @@ const Skills = () => {
       {/* Skills Badge List */}
       <div className="flex w-full flex-wrap justify-center gap-3 mt-4 px-40 max-[1285px]:px-24 max-lg:px-28 max-sm:px-6">
         {data.map((skill, idx) => (
-          <Tooltip key={idx}>
-            <TooltipTrigger asChild>
-              <Badge
-                color="gray"
-                variant="solid"
-                highContrast
-                className="text-xs max-sm:text-[10px] dark:hover:bg-gray-300 py-1 px-2 cursor-pointer hover:bg-gray-800"
-              >
-                {skill}
-              </Badge>
-            </TooltipTrigger>
-            <TooltipContent>
+          <Tooltip key={idx} content={skill}>
+            <Badge
+              color="gray"
+              variant="solid"
+              highContrast
+              className="text-xs max-sm:text-[10px] dark:hover:bg-gray-300 py-1 px-2 cursor-pointer hover:bg-gray-800"
+            >
               {skill}
-            </TooltipContent>
+            </Badge>
           </Tooltip>
         ))}
       </div>
