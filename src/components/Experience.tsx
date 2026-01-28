@@ -38,21 +38,12 @@ const experiences: I_Experience[] = [
     },
     {
         company_name: 'Neutron (Techfest)',
-        job_title: 'Bandwidth',
+        job_title: 'Board Member',
         duration: 'Feb 2025 - Present',
         company_link: 'https://www.instagram.com/neutronfest/',
         company_logo: '/neutron.jpg',
         description:
             'Led marketing and social media efforts for Neutron, achieving 2,000+ registrations and a footfall of 1,400+ participants. Planned and executed multi-platform campaigns, collaborated with sponsors and student communities, and drove engagement to deliver a record-breaking event.',
-    },
-    {
-        company_name: 'Neutron (Techfest)',
-        job_title: 'Core Committee',
-        duration: 'Feb 2024 - Apr 2025',
-        company_link: 'https://www.instagram.com/neutronfest/',
-        company_logo: '/neutron.jpg',
-        description:
-            'Head of marketing and social media—owned content planning, campaign execution, and community engagement to grow reach and participation.',
     },
 ];
 
