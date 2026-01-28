@@ -2,7 +2,7 @@
 import Avatar from "./components/Avatar";
 import ProjectCardList from "../projects/components/ProjectCardList";
 import Skills from "@/components/Skills";
-// import Experience from "@/components/Experience";
+import Experience from "@/components/Experience";
 import Education from "@/components/Education";
 import { RainbowButton } from "@/components/ui/rainbow-button";
 import { Link as ScrollLink } from "react-scroll";
@@ -39,11 +39,10 @@ export default function Home() {
             <h1
               className={`mt-2 max-sm:mt-5 max-sm:px-3 !text-base max-sm:!text-sm text-center !font-normal !tracking-normal inter !leading-6 ${inter}`}
             >
-              Full Stack Web Developer Building Impactful Web Applications. I
-              specialize in creating production-ready web apps from the ground
-              up, with a focus on both frontend and backend development.
-              Passionate about solving real-world problems and always open to
-              new challenges.
+              Full Stack Developer building production-ready web apps end-to-end.
+              I also work on Machine Learning and DevOps—shipping reliable systems
+              with Docker, Kubernetes, and CI/CD. Passionate about solving real-world
+              problems and always open to new challenges.
             </h1>
           </div>
           <div className="mt-10">
@@ -68,6 +67,10 @@ export default function Home() {
 
       <div className="w-full flex justify-center mt-4">
         <Skills />
+      </div>
+
+      <div className="w-full flex justify-center mt-4">
+        <Experience />
       </div>
 
 

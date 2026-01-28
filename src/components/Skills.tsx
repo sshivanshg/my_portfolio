@@ -87,18 +87,50 @@ import IconCloud from "@/components/ui/icon-cloud";
 const Skills = () => {
   // List of skills
   const data: string[] = [
-    "NextJS", "TypeScript", "React", "Tailwind CSS", "NodeJS",
-    "Express", "MongoDB", "MySQL", "REST APIs", "GitHub",
-    "Vercel", "VS Code", "C++", "Java", "Redux",
-    "Zod", "MUI", "Shadcn", "Remix", "Framer Motion",
+    "Full Stack Development",
+    "Next.js",
+    "React",
+    "TypeScript",
+    "Node.js",
+    "Express",
+    "REST APIs",
+    "PostgreSQL",
+    "MongoDB",
+    "Machine Learning",
+    "Python",
+    "NumPy",
+    "Pandas",
+    "scikit-learn",
+    "Docker",
+    "Kubernetes",
+    "Linux",
+    "Git",
+    "CI/CD",
+    "AWS",
   ];
 
   // Slugs for IconCloud
   const iconSlugs: string[] = [
-    "nextdotjs", "typescript", "react", "tailwindcss", "nodedotjs",
-    "express", "mongodb", "mysql", "restapi", "github",
-    "vercel", "visualstudiocode", "cplusplus", "java", "redux",
-    "zod", "mui", "shadcn", "remix", "framer",
+    "nextdotjs",
+    "react",
+    "typescript",
+    "nodedotjs",
+    "express",
+    "tailwindcss",
+    "postgresql",
+    "mongodb",
+    "python",
+    "numpy",
+    "pandas",
+    "scikitlearn",
+    "docker",
+    "kubernetes",
+    "linux",
+    "git",
+    "githubactions",
+    "amazonaws",
+    "vercel",
+    "visualstudiocode",
   ];
 
   return (

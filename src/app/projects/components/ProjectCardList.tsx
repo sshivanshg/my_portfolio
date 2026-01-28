@@ -21,7 +21,6 @@ const ProjectCardList = () => {
         ))}
       </div>
     </div>
-    
   );
 };
 
@@ -30,20 +29,34 @@ export default ProjectCardList;
 const data: Project[] = [
   {
     logo: "/whiteboard.jpg",
-    title: "Url Shortner",
+    title: "ATELIER - Fashion eCommerce Platform",
     description:
-      "A full-stack URL shortener with authentication, custom short links, QR code generation, click tracking,and personalized user dashboards using Supabase for backend services",
-    techStack: ["React", "JavaScript", "Tailwind CSS", "Supabase"],
-    link: "https://crazyurl.online",
-    source: "https://github.com/sshivanshg/urlShortner",
+      "ATELIER is a modern, full-stack fashion eCommerce platform for premium clothing brands, with a high-performance storefront, secure JWT auth with role-based access, and an admin dashboard for products, variants, inventory, orders, content, and analytics.",
+    techStack: [
+      "React (Vite)",
+      "Node.js",
+      "Express",
+      "MongoDB (Native Driver)",
+      "Cloudinary",
+      "JWT Auth",
+    ],
+    link: "https://devops-ecom.vercel.app/",
+    source: "https://github.com/sshivanshg/Devops_ecom",
   },
   {
     logo: "/aiportfolio.jpg",
-    title: "AI Portfolio",
+    title: "Spatialaw - WiFi Human Presence Detection",
     description:
-      "Made a chatbot application which gives answers about myself. Used Vector embeddings to store custom data.",
-    techStack: ["Next JS", "Datastax", "TailwindCSS", "Framer Motion"],
-    link: "https://ai-portfolio-pi.vercel.app/",
-    source: "https://github.com/sshivanshg/ai_portfolio",
+      "Spatialaw is a WiFi CSI–based human presence detection system that turns WiFi signals into an invisible motion sensor, using feature-engineered signal data and a Random Forest model to distinguish between empty rooms and human activity with high accuracy.",
+    techStack: ["Python", "WiFi CSI", "Random Forest", "Streamlit"],
+    source: "https://github.com/sshivanshg/spatialaw",
+  },
+  {
+    logo: "/whiteboard.jpg",
+    title: "Chrono - Countdown & Productivity App",
+    description:
+      "Chrono is a cross-platform countdown and productivity app built with Expo + React Native, helping users track important dates, create widgets, and manage events with offline persistence and cloud authentication.",
+    techStack: ["Expo", "React Native"],
+    source: "https://github.com/sshivanshg/Chrono",
   },
 ];

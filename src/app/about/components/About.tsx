@@ -120,6 +120,27 @@ const About = () => {
 export default About;
 
 const data: I_About[] = [
+  {
+    year: 2026,
+    events: [
+      "Focused on Full Stack development and system delivery: building end-to-end features, designing APIs, and owning deployments.",
+      "Strengthened DevOps fundamentals with Docker, Kubernetes, and CI/CD to ship reliable, repeatable releases.",
+    ],
+  },
+  {
+    year: 2025,
+    events: [
+      "Started applying Machine Learning in projects: data preparation, model training, evaluation, and iteration.",
+      "Built scalable backend services and integrated them with modern React/Next.js frontends.",
+    ],
+  },
+  {
+    year: 2024,
+    events: [
+      "Deepened my web development fundamentals by shipping multiple projects and learning what it takes to build for production.",
+      "Improved problem-solving and DSA consistency alongside building real-world features.",
+    ],
+  },
   // {
   //   year: 2024,
   //   events: [
